@@ -8,7 +8,12 @@
 #ifndef SKMACROS_H
 #define SKMACROS_H
 
-#import <FBDefines/FBDefines.h>
+#ifndef FB_SK_MACROS_H
+#define FB_SK_MACROS_H
+#define FB_LINK_REQUIRE_(NAME)
+#define FB_LINKABLE(NAME)
+#define FB_LINK_REQUIRE_CATEGORY(NAME)
+#endif
 
 #ifdef __cplusplus
 #define SK_EXTERN_C_BEGIN extern "C" {
