@@ -11,7 +11,7 @@
 		53915CB22152E3040090EEA6 /* FlipperResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = 53915C972152E3030090EEA6 /* FlipperResponder.h */; };
 		53915CB32152E3040090EEA6 /* SKStateUpdateCPPWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 53915C982152E3030090EEA6 /* SKStateUpdateCPPWrapper.mm */; };
 		53915CB42152E3040090EEA6 /* FlipperDiagnosticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53915C992152E3030090EEA6 /* FlipperDiagnosticsViewController.m */; };
-		53915CB52152E3040090EEA6 /* FlipperClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 53915C9A2152E3030090EEA6 /* FlipperClient.h */; };
+		53915CB52152E3040090EEA6 /* FlipperClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 53915C9A2152E3030090EEA6 /* FlipperClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53915CB62152E3040090EEA6 /* FlipperConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 53915C9B2152E3030090EEA6 /* FlipperConnection.h */; };
 		53915CB72152E3040090EEA6 /* SKStateUpdateCPPWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 53915C9C2152E3030090EEA6 /* SKStateUpdateCPPWrapper.h */; };
 		53915CB82152E3040090EEA6 /* FlipperPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 53915C9D2152E3030090EEA6 /* FlipperPlugin.h */; };
@@ -30,8 +30,15 @@
 		53915CC52152E3040090EEA6 /* SKMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 53915CAE2152E3040090EEA6 /* SKMacros.h */; };
 		53915CC62152E3040090EEA6 /* FlipperClient.mm in Sources */ = {isa = PBXBuildFile; fileRef = 53915CAF2152E3040090EEA6 /* FlipperClient.mm */; };
 		53915CC72152E3040090EEA6 /* FlipperDiagnosticsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 53915CB02152E3040090EEA6 /* FlipperDiagnosticsViewController.h */; };
-		53915CCA2152E31C0090EEA6 /* Plugins in Resources */ = {isa = PBXBuildFile; fileRef = 53915CC92152E31C0090EEA6 /* Plugins */; };
 		53D4C51220A5B89900613A96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D4C51120A5B89900613A96 /* Foundation.framework */; };
+		6E646B72248A9B7000543297 /* Plugins in Headers */ = {isa = PBXBuildFile; fileRef = 53915CC92152E31C0090EEA6 /* Plugins */; };
+		6E646B96248A9CA900543297 /* FlipperKitReactPlugin in Headers */ = {isa = PBXBuildFile; fileRef = 6E646B8F248A9CA800543297 /* FlipperKitReactPlugin */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E646B97248A9CA900543297 /* FlipperKitLayoutPlugin in Headers */ = {isa = PBXBuildFile; fileRef = 6E646B90248A9CA800543297 /* FlipperKitLayoutPlugin */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E646B98248A9CA900543297 /* FlipperKitUserDefaultsPlugin in Headers */ = {isa = PBXBuildFile; fileRef = 6E646B91248A9CA800543297 /* FlipperKitUserDefaultsPlugin */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E646B99248A9CA900543297 /* FlipperKitBloksPlugin in Headers */ = {isa = PBXBuildFile; fileRef = 6E646B92248A9CA800543297 /* FlipperKitBloksPlugin */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E646B9A248A9CA900543297 /* FlipperKitExamplePlugin in Headers */ = {isa = PBXBuildFile; fileRef = 6E646B93248A9CA800543297 /* FlipperKitExamplePlugin */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E646B9B248A9CA900543297 /* FlipperKitNetworkPlugin in Headers */ = {isa = PBXBuildFile; fileRef = 6E646B94248A9CA800543297 /* FlipperKitNetworkPlugin */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E646B9C248A9CA900543297 /* FlipperKitPluginUtils in Headers */ = {isa = PBXBuildFile; fileRef = 6E646B95248A9CA900543297 /* FlipperKitPluginUtils */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +71,13 @@
 		53D19A0520A4BA3600A371E3 /* FlipperKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlipperKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53D4C51120A5B89900613A96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B3C0104984F1A2F624E5394 /* Pods-SonarKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonarKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-SonarKit/Pods-SonarKit.release.xcconfig"; sourceTree = "<group>"; };
+		6E646B8F248A9CA800543297 /* FlipperKitReactPlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FlipperKitReactPlugin; path = Plugins/FlipperKitReactPlugin; sourceTree = "<group>"; };
+		6E646B90248A9CA800543297 /* FlipperKitLayoutPlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FlipperKitLayoutPlugin; path = Plugins/FlipperKitLayoutPlugin; sourceTree = "<group>"; };
+		6E646B91248A9CA800543297 /* FlipperKitUserDefaultsPlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FlipperKitUserDefaultsPlugin; path = Plugins/FlipperKitUserDefaultsPlugin; sourceTree = "<group>"; };
+		6E646B92248A9CA800543297 /* FlipperKitBloksPlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FlipperKitBloksPlugin; path = Plugins/FlipperKitBloksPlugin; sourceTree = "<group>"; };
+		6E646B93248A9CA800543297 /* FlipperKitExamplePlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FlipperKitExamplePlugin; path = Plugins/FlipperKitExamplePlugin; sourceTree = "<group>"; };
+		6E646B94248A9CA800543297 /* FlipperKitNetworkPlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FlipperKitNetworkPlugin; path = Plugins/FlipperKitNetworkPlugin; sourceTree = "<group>"; };
+		6E646B95248A9CA900543297 /* FlipperKitPluginUtils */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FlipperKitPluginUtils; path = Plugins/FlipperKitPluginUtils; sourceTree = "<group>"; };
 		AF8587A796104EAC5B080F7D /* Pods-FlipperKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipperKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlipperKit/Pods-FlipperKit.release.xcconfig"; sourceTree = "<group>"; };
 		C6253FA5661121EDD200B8A9 /* Pods-SonarKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonarKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SonarKit/Pods-SonarKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,6 +172,13 @@
 		53D199FB20A4BA3600A371E3 = {
 			isa = PBXGroup;
 			children = (
+				6E646B92248A9CA800543297 /* FlipperKitBloksPlugin */,
+				6E646B93248A9CA800543297 /* FlipperKitExamplePlugin */,
+				6E646B90248A9CA800543297 /* FlipperKitLayoutPlugin */,
+				6E646B94248A9CA800543297 /* FlipperKitNetworkPlugin */,
+				6E646B95248A9CA900543297 /* FlipperKitPluginUtils */,
+				6E646B8F248A9CA800543297 /* FlipperKitReactPlugin */,
+				6E646B91248A9CA800543297 /* FlipperKitUserDefaultsPlugin */,
 				53915C962152E3030090EEA6 /* FlipperKit */,
 				53D19A0620A4BA3600A371E3 /* Products */,
 				256B672257477FB71D3FAD20 /* Pods */,
@@ -189,11 +210,19 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53915CB52152E3040090EEA6 /* FlipperClient.h in Headers */,
+				6E646B96248A9CA900543297 /* FlipperKitReactPlugin in Headers */,
+				6E646B97248A9CA900543297 /* FlipperKitLayoutPlugin in Headers */,
+				6E646B98248A9CA900543297 /* FlipperKitUserDefaultsPlugin in Headers */,
+				6E646B99248A9CA900543297 /* FlipperKitBloksPlugin in Headers */,
+				6E646B9A248A9CA900543297 /* FlipperKitExamplePlugin in Headers */,
+				6E646B9B248A9CA900543297 /* FlipperKitNetworkPlugin in Headers */,
+				6E646B9C248A9CA900543297 /* FlipperKitPluginUtils in Headers */,
+				6E646B72248A9B7000543297 /* Plugins in Headers */,
 				53915CC22152E3040090EEA6 /* FlipperCppBridgingConnection.h in Headers */,
 				53915CB22152E3040090EEA6 /* FlipperResponder.h in Headers */,
 				53915CB72152E3040090EEA6 /* SKStateUpdateCPPWrapper.h in Headers */,
 				53915CBB2152E3040090EEA6 /* FKPortForwardingCommon.h in Headers */,
-				53915CB52152E3040090EEA6 /* FlipperClient.h in Headers */,
 				53915CB62152E3040090EEA6 /* FlipperConnection.h in Headers */,
 				53915CB82152E3040090EEA6 /* FlipperPlugin.h in Headers */,
 				53915CC72152E3040090EEA6 /* FlipperDiagnosticsViewController.h in Headers */,
@@ -266,7 +295,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53915CCA2152E31C0090EEA6 /* Plugins in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
